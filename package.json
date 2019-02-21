@@ -1,0 +1,28 @@
+{
+  "name": "epic-mail",
+  "version": "1.0.0",
+  "description": "a web app that helps people exchange messages/information over the internet.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cop1fab/EPIC-Mail.git"
+  },
+  "author": "Dr. Copain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cop1fab/EPIC-Mail/issues"
+  },
+  "homepage": "https://github.com/cop1fab/EPIC-Mail#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-watch": "^7.0.0"
+  }
+}
